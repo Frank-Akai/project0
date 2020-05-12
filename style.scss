@@ -1,0 +1,37 @@
+%message {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.Program {
+    @extend %message;
+    background-color: #445544;
+}
+
+.Editor {
+    @extend %message;
+    background-color: #445544;
+}
+
+.Language {
+    @extend %message;
+    background-color: #445544;
+}
+
+
+#footer {
+    ul {
+      margin: 0;
+      padding: 20px;
+      list-style: none;
+    }
+  
+    li { display: inline-block; }
+  
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+    }
+  }
